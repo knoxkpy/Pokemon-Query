@@ -13,8 +13,6 @@
 
 
 /*
-This is the client part of the assignment. The main idea would be more-or-less the same with A3 but instead of performing the search in the same program, it delegates it to the server to do it. The client mainly serves for getting the search result from server, and then saving the result in a link list. When the user want to output the result, it creates the file and write the output to the file, which is same as A3. It disconnects from the server once the user chooses to exit the program.
-
 A rough design for this server would be:
 1. Open socket
 2. connect to the server
